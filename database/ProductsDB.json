@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Laptop", "price": 15000, "image": "laptop.jpg" },
+  { "id": 2, "name": "Phone", "price": 8000, "image": "phone.jpg" },
+  { "id": 3, "name": "Headphones", "price": 2000, "image": "headphones.jpg" },
+  { "id": 4, "name": "Keyboard", "price": 1200, "image": "keyboard.jpg" },
+  { "id": 5, "name": "Mouse", "price": 700, "image": "mouse.jpg" },
+  { "id": 6, "name": "Monitor", "price": 5000, "image": "monitor.jpg" },
+  { "id": 7, "name": "Printer", "price": 3500, "image": "printer.jpg" },
+  { "id": 8, "name": "Tablet", "price": 6000, "image": "tablet.jpg" },
+  { "id": 9, "name": "Smart Watch", "price": 2500, "image": "smart_watch.jpg" },
+  { "id": 10, "name": "Camera", "price": 10000, "image": "camera.jpg" }
+]
