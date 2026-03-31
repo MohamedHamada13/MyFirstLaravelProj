@@ -7,16 +7,11 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    
-    <!-- Navigation bar -->
-    @include('components.nav')
 
     <!-- Main content -->
-    <main class="container mt-5 mb-5">
+    <main>
         @yield('content')
     </main>
-    
-    <!-- Footer -->
-    @include('components.footer')
+
 </body>
 </html>
