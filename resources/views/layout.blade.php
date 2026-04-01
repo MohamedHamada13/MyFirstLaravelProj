@@ -6,12 +6,20 @@
     @vite(['resources/js/app.js', 'resources/css/app.css']) <!-- Include Vite assets { Bootstrap } -->
     <title>@yield('title')</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
+
+    @hasSection('nav')
+        @yield('nav')
+    @endif
 
     <!-- Main content -->
-    <main>
+    <main class="flex-grow-1">
         @yield('content')
     </main>
+
+    @hasSection('footer')
+        @yield('footer')
+    @endif
 
 </body>
 </html>
