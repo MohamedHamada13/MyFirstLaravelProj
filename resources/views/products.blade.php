@@ -1,8 +1,19 @@
 @extends('layout')
 @section('title', 'Products')
 
-@section('content')
+
+@section('nav')
     <x-nav />
+@endsection
+
+@section('content')
+    <div class="container mt-4 mb-4">
+        @if (session('success'))
+            <div class="alert bg-success text-white text-center">
+                {{ session('success') }}
+            </div>
+        @endif
+    </div>
 
     <div class="container mt-5 mb-5">
         <h1 class="text-center mt-5">Products</h1>
@@ -14,7 +25,9 @@
             </div>
         </section>
     </div>
+@endsection
 
+@section('footer')
     <x-footer />
 @endsection
 
