@@ -19,6 +19,6 @@
      </div>
    </div>
    <hr />
-   <p class="text-center">© 2023 CodeFoxes. All rights reserved.</p>
+   <p class="text-center">© 2023 CodeFox. All rights reserved.</p>
  </div>
 </footer>
