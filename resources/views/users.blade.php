@@ -32,7 +32,6 @@
                                 {{ $user->email }}
                             </td>
                             <td>
-                                {{-- Pass user orders data to dialog instead --}}
                                 <div class="d-flex justify-content-center gap-2">
                                     <a class="btn btn-sm btn-outline-primary"
                                         href="{{ route('users.orders', ['id' => $user->id]) }}"

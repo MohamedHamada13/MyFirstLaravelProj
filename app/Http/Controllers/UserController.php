@@ -12,4 +12,10 @@ class UserController extends Controller
         $users = User::all();
         return view('users', compact('users'));
     }
+
+    public function orders($id)
+    {
+        $userWithOrders = User::with('orders')->findOrFail($id);
+        return view('user_orders', compact('userWithOrders'));
+    }
 }
